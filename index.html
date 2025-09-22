@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Catalogo WanttedG</title>
+  <!-- Fonte Gamer -->
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>catalogo</h1>
+      <img id="logo"
+           src="imagens/wanttedG-black.svg"
+           alt="Logo Wanted G"
+           data-black="imagens/wanttedG-black.svg"
+           data-white="imagens/wanttedG-white.svg">
+    </div>
+    <button id="theme-toggle" aria-pressed="false">🌙 Modo Escuro</button>
+  </header>
+
+  <div class="controls">
+    <input type="text" id="search-input" placeholder="Procure seu jogo favorito..." aria-label="Pesquisar jogos" />
+    <select id="filter-select" aria-label="Filtrar por categoria">
+      <option value="all">Todas as Categorias</option>
+      <option value="PC">PC</option>
+    </select>
+  </div>
+
+  <main id="catalogo-container" class="catalogo"></main>
+
+  <footer>
+    <p>Todos os direitos reservados a Wantted</p>
+    <img id="footer-logo"
+         src="imagens/wanttedG-black.svg"
+         alt="Logo Wanted G"
+         data-black="imagens/wanttedG-black.svg"
+         data-white="imagens/wanttedG-white.svg">
+    <p>É os guri do TI não tem jeito</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
